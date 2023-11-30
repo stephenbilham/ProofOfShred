@@ -1,0 +1,15 @@
+.animation {
+	transition: transform 0.3s ease-in-out;
+	width: 320px;
+
+	&:hover {
+		transform: scale(1.05);
+	}
+}
+
+.cardContainerTitleText {
+	font-family: "Montserrat", sans-serif;
+	font-weight: 300;
+	color: white;
+	font-size: 32px;
+}

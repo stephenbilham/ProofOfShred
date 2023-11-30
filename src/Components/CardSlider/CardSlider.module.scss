@@ -1,0 +1,15 @@
+.trendingNowText {
+	font-family: "Montserrat", sans-serif;
+	font-weight: 300;
+	color: white;
+	font-size: 32px;
+}
+
+.animation {
+	transition: transform 0.3s ease-in-out;
+	width: 400px;
+
+	&:hover {
+		transform: scale(1.05);
+	}
+}

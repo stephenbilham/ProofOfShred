@@ -1,0 +1,70 @@
+.cardBody {
+	display: flex;
+	justify-content: space-between;
+	padding: 20px 5px;
+	margin: 0;
+}
+
+.cardButton {
+	background-color: transparent;
+	// color: black;
+	width: 113px;
+	align-self: center;
+	border: 1px solid white;
+	transition: transform 0.3s ease-in-out;
+
+	&:hover {
+		transform: scale(1.1);
+		background-color: transparent;
+		border: 1px solid white;
+	}
+
+	p {
+		font-size: 14px;
+	}
+}
+
+.cardImage {
+	height: 177px;
+	width: auto;
+	border-radius: 8px;
+	position: relative;
+}
+
+.cardContent {
+	// width: 320px;
+	border: none;
+	background-color: transparent;
+	color: white;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between; // This will push the button to the bottom
+	height: 100%;
+}
+
+.cardContext {
+	background-color: "#fff";
+	color: "#020e1ef7";
+	width: "100%";
+	height: "40px";
+}
+
+.cardText {
+	font-size: 12px;
+	margin: 0;
+}
+
+.trendingView {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	background-color: rgba(39, 39, 39, 0.5803921569);
+	min-width: 162px;
+	padding: 10px 0 0px 0;
+	display: flex;
+	justify-content: center;
+}
+
+.trendingViewImage {
+	width: 375px;
+}
